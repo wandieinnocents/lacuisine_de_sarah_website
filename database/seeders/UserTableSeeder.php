@@ -33,7 +33,7 @@ class UserTableSeeder extends Seeder
 
         $user->assignRole([$role->id]);
 
-        // run the seeder commands
+        // run the seeder commands to generate a user with roles and permissions
         //seeder
        /*
         php artisan db:seed --class=PermissionTableSeeder
