@@ -5,7 +5,7 @@
 <head>
 
         <meta charset="utf-8" />
-        <title>Backend </title>
+        <title>Backend - Administrator </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Quality at its best" name="description" />
         <meta content="Wanran" name="author" />
@@ -25,7 +25,7 @@
         <!-- App Css-->
         <link href="{{ asset('assets/backend_assets/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
 
-        
+
 
     </head>
 
