@@ -29,13 +29,18 @@ About - La Cuisine De Sarah
 						<div class="inner-column">
 							<h2>About Us</h2>
 							<div class="text">
-								<p>la cuisine de sarah , founded 2021 by Ex intercontinental cuisine chef , Mbonde bilari who 
-									worked with several 5 star hotels and restaurants around the globe , the name “ 
-									la cuisine de Sarah”derives from his late mom sarah , which means (Sarah’s kitchen)la 
-									cuisine de sarah is a business combined with extraordinary 5 star service in food 
-									service as well as hotel and tourism industry. Therefore the greatly earned experience 
-									from the past consistency, is behind its formation.</p>
-								
+								<p>
+                                    La cuisine de sarah, meaning
+                                    "sarah's kitchen " in english , is a mult-tier culinary
+                                    Experience based in the heart of kampala capital city, uganda'
+                                    An all encompassing dining experience carefully curated
+                                    To compliment human senses
+                                    From the moment you enter
+                                    Our restaurant.
+
+
+                                </p>
+
 							</div>
 						</div>
 					</div>
@@ -57,7 +62,7 @@ About - La Cuisine De Sarah
 		</section>
 		<!-- End About Section Two -->
 
-	
+
 
 		<hr>
 

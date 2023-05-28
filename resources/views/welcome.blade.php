@@ -11,7 +11,7 @@ Home - La Cuisine De Sarah
 
 <style>
     .modal {
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
 }
 .modal-backdrop {
   display: none;
@@ -29,11 +29,11 @@ Home - La Cuisine De Sarah
 <!--================Slider Area =================-->
 @include('frontend.includes_frontend.slider')
 		<!--================End Slider Area =================-->
-        
 
 
 
-		
+
+
 		<!-- About Section Two -->
 		<section class="about-section-two" style="margin-top: 10px;">
 			<div class="auto-container">
@@ -44,13 +44,18 @@ Home - La Cuisine De Sarah
 						<div class="inner-column">
 							<h2>Our Background</h2>
 							<div class="text">
-								<p>la cuisine de sarah ,  founded 2021 by Ex intercontinental cuisine chef , Mbonde bilari who 
-									worked with several 5 star hotels and restaurants around the globe , the name “ 
-									la cuisine de Sarah”derives from his late mom sarah , which means (Sarah’s kitchen)la 
-									cuisine de sarah is a business combined with extraordinary 5 star service in food 
-									service as well as hotel and tourism industry. Therefore the greatly earned experience 
-									from the past consistency, is behind its formation.</p>
-								
+								<p>
+                                    La cuisine de sarah, meaning
+                                    "sarah's kitchen " in english , is a mult-tier culinary
+                                    Experience based in the heart of kampala capital city, uganda'
+                                    An all encompassing dining experience carefully curated
+                                    To compliment human senses
+                                    From the moment you enter
+                                    Our restaurant.
+
+
+                                </p>
+
 							</div>
 						</div>
 					</div>
@@ -109,7 +114,7 @@ Home - La Cuisine De Sarah
 								<!-- open modal with details -->
 								<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-									
+
 								<h4>{{ $foodmenu->foodmenu_name }}</h4>
 									<div class="text">
 										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 60, $end='...') }}
@@ -123,25 +128,25 @@ Home - La Cuisine De Sarah
 							</div>
 						</div>
 
-									
+
 						<!-- The Modal -->
 						<div class="modal-dialog">
 							<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
 							<div class="modal-dialog" style="margin-top: 10%;">
 							<div class="modal-content">
-							
+
 								<!-- Modal Header -->
 								<div class="modal-header">
 								<h4 class="modal-title">View Food Details</h4>
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
 								</div>
-								
+
 								<!-- Modal body -->
 								<div class="modal-body">
 								<center>
 								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">
 								</center>
-								
+
 								<br>
 								<hr>
 
@@ -149,12 +154,12 @@ Home - La Cuisine De Sarah
 								<hr>
 								<p>Description : {{$foodmenu->foodmenu_description}}</p>
 								</div>
-								
+
 								<!-- Modal footer -->
 								<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 								</div>
-								
+
 							</div>
 							</div>
 						</div>
@@ -166,17 +171,17 @@ Home - La Cuisine De Sarah
 						@foreach($foodmenus_chicken_categories as $foodmenu)
 							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
-							<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								
+							<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">
 									<div class="lower-content">
 									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 									<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-								
+
 										<h4>{{ $foodmenu->foodmenu_name }}</> </h4>
 
 										<div class="text">
-											
+
 											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 60, $end='...') }}
 
 										</div>
@@ -189,25 +194,25 @@ Home - La Cuisine De Sarah
 								</div>
 							</div>
 
-										
+
 						<!-- The Modal -->
 						<div class="modal-dialog">
 							<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
 							<div class="modal-dialog" style="margin-top: 10%;">
 							<div class="modal-content">
-							
+
 								<!-- Modal Header -->
 								<div class="modal-header">
 								<h4 class="modal-title">View Food Details</h4>
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
 								</div>
-								
+
 								<!-- Modal body -->
 								<div class="modal-body">
 								<center>
 								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">
 								</center>
-																
+
 								<br>
 								<hr>
 
@@ -216,12 +221,12 @@ Home - La Cuisine De Sarah
 								<hr>
 								<p>Description : {{$foodmenu->foodmenu_description}}</p>
 								</div>
-								
+
 								<!-- Modal footer -->
 								<div class="modal-footer">
 								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 								</div>
-								
+
 							</div>
 							</div>
 						</div>
@@ -237,18 +242,18 @@ Home - La Cuisine De Sarah
 							<div class="inner-box">
 									<figure class="image-box">
 										<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt=""> -->
-										<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">										
+										<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">
 									</figure>
 									<div class="lower-content">
 									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 									<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-								
+
 										<h4>{{ $foodmenu->foodmenu_name }}</> </h4>
 										<div class="text">
 
-											
+
 											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description  , 60, $end='...') }}
 
 										</div>
@@ -261,19 +266,19 @@ Home - La Cuisine De Sarah
 								</div>
 							</div>
 
-														
+
 							<!-- The Modal -->
 							<div class="modal-dialog">
 								<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
 								<div class="modal-dialog" style="margin-top: 10%;">
 								<div class="modal-content">
-								
+
 									<!-- Modal Header -->
 									<div class="modal-header">
 									<h4 class="modal-title">View Food Details</h4>
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
 									</div>
-									
+
 									<!-- Modal body -->
 									<div class="modal-body">
 									<center>
@@ -286,12 +291,12 @@ Home - La Cuisine De Sarah
 									<hr>
 									<p>Description : {{$foodmenu->foodmenu_description}}</p>
 									</div>
-									
+
 									<!-- Modal footer -->
 									<div class="modal-footer">
 									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 									</div>
-									
+
 								</div>
 								</div>
 							</div>
@@ -392,7 +397,7 @@ Home - La Cuisine De Sarah
 				</div>
 			</div>
 
-			
+
 
 
 
