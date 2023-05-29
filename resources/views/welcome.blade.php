@@ -94,8 +94,8 @@ Home - La Cuisine De Sarah
 					<div class="filters clearfix">
 						<ul class="filter-tabs filter-btns clearfix">
 							<li class="active filter" data-role="button" data-filter="all">All</li>
-							<li class="filter" data-role="button" data-filter=".chicken">Chicken</li>
-							<li class="filter" data-role="button" data-filter=".pizza">Pizza</li>
+							<li class="filter" data-role="button" data-filter=".starters">Starters</li>
+							<li class="filter" data-role="button" data-filter=".maincourse">Main Course </li>
 						</ul>
 					</div>
 
@@ -168,8 +168,8 @@ Home - La Cuisine De Sarah
 						@endforeach
 
 						<!-- Chicken - Products Block -->
-						@foreach($foodmenus_chicken_categories as $foodmenu)
-							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
+						@foreach($foodmenus_starters_categories as $foodmenu)
+							<div class="product-block all mix starters col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
 							<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">
 									<div class="lower-content">
@@ -235,10 +235,10 @@ Home - La Cuisine De Sarah
 
 						@endforeach
 
-						<!-- Pizza products block -->
+						<!-- maincourse products block -->
 						<!-- Chicken - Products Block -->
-						@foreach($foodmenus_pizza_categories as $foodmenu)
-							<div class="product-block all mix pizza col-lg-3 col-md-6 col-sm-12">
+						@foreach($foodmenus_maincourse_categories as $foodmenu)
+							<div class="product-block all mix maincourse col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
 									<figure class="image-box">
 										<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt=""> -->
