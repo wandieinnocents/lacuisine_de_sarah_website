@@ -7,7 +7,7 @@
 						<ul class="info-list">
 							<li>Quality service to you.</li>
 							<li><a href="mailto:info@lacuisinedesarah.com"><span class="icon far fa-envelope"></span>
-									info@lacuisinedesarah.com</a></li>
+									info@lacuisinedesarahug.com</a></li>
 						</ul>
 					</div>
 					<div class="top-right clearfix">
@@ -21,7 +21,7 @@
 						</ul>
 						<div class="option-list">
 							<!-- Cart Button -->
-							
+
 							<!-- Search Btn -->
 							<!-- <div class="search-box-btn"><span class="icon fa fa-search"></span></div> -->
 						</div>
@@ -59,8 +59,8 @@
 										<!-- <li class="current dropdown"><a href="/">Home</a> -->
 										<li><a href="/">Home</a></li>
 										<li><a href="/about">About Us</a></li>
-											
-									
+
+
 										<!-- <li class="dropdown"><a href="#">Know Us</a>
 											<ul>
 												<li><a href="/about">About us</a></li>
@@ -75,13 +75,13 @@
 												<li><a href="/drinks">Drinks Menu</a></li>
 											</ul>
 										</li>
-										
+
 										<!-- <li><a href="/articles">Blog</a></li> -->
 										<li><a href="{{ route('book.create') }}">Booking</a></li>
-										
+
 
 										<li><a href="{{ route('contact.create') }}">Contact</a></li>
-										
+
 									</ul>
 								</div>
 							</nav>
@@ -127,7 +127,7 @@
 									<ul class="navigation clearfix">
 										<li class="current dropdown"><a href="/">Home</a>
 											<li><a href="/about">About Us</a></li>
-											
+
 										</li>
 										<!-- <li class="dropdown"><a href="#">Know Us</a>
 											<ul>
@@ -143,10 +143,10 @@
 												<li><a href="/drinks">Drinks Menu</a></li>
 											</ul>
 										</li>
-										
+
 										<!-- <li><a href="/articles">Blog</a></li> -->
 										<li><a href="{{ route('book.create') }}">Booking</a></li>
-										
+
 
 										<li><a href="{{ route('contact.create') }}">Contact</a></li>
 									</ul>
